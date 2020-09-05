@@ -1,0 +1,154 @@
+*{margin:0;padding:0}
+
+#body{
+	background-image: url(../img/backgroundimage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* 帮助面板 */
+#helpDiv{
+	position: relative;
+	width: max-content;
+	height: max-content;
+	left: 90%;
+	top: 5%;
+}
+
+#helpImg{
+	width: 35px;
+	height: 35px;
+	border-radius: 17.5px;
+}
+
+/* 帮助面板 */
+#emergencyCall{
+	position: relative;
+	width: max-content;
+	height: max-content;
+	left: 90%;
+	top: 8%;
+}
+
+#emergencyCallImg{
+	width: 35px;
+	height: 35px;
+	border-radius: 17.5px;
+}
+
+/* 容器 */
+#showImage{
+	position: relative;
+	text-align: center;
+	padding: 20px;
+	top: 10%;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: max-content;
+	height: max-content;
+	background-color: rgb(202,235,216);
+	border-radius: 64px;
+	box-shadow:  20px -20px 54px #2e6483,
+	-20px 20px 54px rgb(202,235,216);
+}
+
+/* 标题 */
+#TitleDiv{
+	text-align: center;
+	margin-bottom: 10%;
+	padding: 5px;
+}
+
+#title{
+	font-size: 40px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* 二维码 */
+#ImageDiv{
+	width: max-content;
+	height: max-content;
+	margin: auto;
+	padding: 5px;
+	margin-bottom: 10%;
+}
+
+#image{
+	width: 200px;
+	height:200px;
+}
+
+/* 下载按钮 */
+#DownloadDiv{
+	position: relative;
+	width: 100%;
+	height: 0.05%;
+	margin: auto;
+	display: inline-block;
+	top: 10px;
+	padding: 5px;
+}
+
+#downloadButton{
+	width: 70%;
+	height: 70%;
+	font-size: 30px;
+	border-radius: 20px;
+	box-shadow: inset 28px -28px 57px rgb(254,254,254),
+	inset -28px 28px 57px rgb(254,254,254);
+}
+
+/* 刷新按钮 */
+#RefleshDiv{
+	position: relative;
+	width: 100%;
+	height: 0.05%;
+	margin: auto;
+	top: 10px;
+	padding: 5px;
+}
+
+#refreshButton{
+	width: 70%;
+	height: 70%;
+	border-radius: 20px;
+	font-size: 30px;
+	box-shadow: inset 28px -28px 57px rgb(254,254,254),
+	inset -28px 28px 57px rgb(254,254,254);
+}
+
+#OpenWechatDiv{
+	position: relative;
+	width: 100%;
+	height: 0.05%;
+	margin: auto;
+	top: 10px;
+	padding: 5px;
+}
+
+#openWeChatButton{
+	width: 70%;
+	height: 70%;
+	border-radius: 20px;
+	font-size: 30px;
+	box-shadow: inset 28px -28px 57px rgb(254,254,254),
+	inset -28px 28px 57px rgb(254,254,254);
+}
+
+
+/* =================================================== */
+
+/* 版权信息 */
+#InfoDiv{
+	position: relative;
+	top: 20%;
+	bottom: 0px;
+	text-align: center;
+}
+
+.infoFont{
+	font-size: 15px;
+}
+
