@@ -50,7 +50,7 @@ public class EmailServiceImpl implements EmailService {
 
             MimeMessage mimeMessage = new MimeMessage(mailSession);
 
-            InternetAddress from= new InternetAddress("863713745@qq.com");
+            InternetAddress from= new InternetAddress("******************");
             mimeMessage.setFrom(from);
             InternetAddress toEmail = new InternetAddress(to); //设置收件人地址并规定其类型
             mimeMessage.setRecipient(Message.RecipientType.TO,toEmail);
@@ -71,7 +71,7 @@ public class EmailServiceImpl implements EmailService {
 
             //发送消息
             Transport transport=mailSession.getTransport("smtp");
-            transport.connect("smtp.qq.com","863713745@qq.com","myandvczlwbobcaj");//发邮件人帐户密码,此外是我的帐户密码，使用时请修改news.properties中的值 。
+            transport.connect("smtp.qq.com","******************","******************");//发邮件人帐户密码,此外是我的帐户密码，使用时请修改news.properties中的值 。
             transport.sendMessage(mimeMessage,mimeMessage.getAllRecipients());
             transport.close();
             System.out.println("邮件已成功发送到 " + to);
